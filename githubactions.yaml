@@ -8,7 +8,7 @@ on:
 
 jobs:
   hello_word:
-    runs-on: ubuntu-latest
+    runs-on: Git-Bash
     steps:
       - name: "print hello world"
         run: echo "hello world"
