@@ -1,0 +1,14 @@
+name: "github actions flow"
+
+on:
+  push:
+    branches:
+      - master
+      - gauravpawar21
+
+jobs:
+  hello_word:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "print hello world"
+      run: echo "hello world"
